@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<title>Register Form</title>
+</head>
+<body>
+    <div class="container-form register">
+        <div class="information">
+            <div class="info-child">
+                <h2>Welcome</h2>
+                <p>Log in to join our community</p>
+                <input type="button" value="log in" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-child">
+                <h2>Create an Account</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <p>or register with your e-mail</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user' ></i>
+                        <input type="text" placeholder="Full Name">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="text" placeholder="E-mail">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-form login hidden">
+        <div class="information">
+            <div class="info-child">
+                <h2>Welcome Back!</h2>
+                <p>Log in to join our community</p>
+                <input type="button" value="register" id="sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-child">
+                <h2>Log In</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <p>or log-in with an account</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="text" placeholder="E-mail">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <input type="submit" value="Log in">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
